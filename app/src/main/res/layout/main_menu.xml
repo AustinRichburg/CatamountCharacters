@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        style="@style/background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/title"
+            android:layout_weight="2"
+            android:textSize="32sp"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/mainMenu"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            style="@style/mmButton"
+            android:id="@+id/oneLetter"
+            android:text="@string/one"
+            android:onClick="onClick" />
+
+        <Button
+            style="@style/mmButton"
+            android:id="@+id/twoLetters"
+            android:text="@string/two"
+            android:onClick="onClick" />
+
+        <Button
+            style="@style/mmButton"
+            android:id="@+id/image"
+            android:text="@string/image"
+            android:onClick="onClick" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/infoButton"
+                android:text="@string/info"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:textAllCaps="false"
+                android:textStyle="italic|bold"
+                android:onClick="onClick" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

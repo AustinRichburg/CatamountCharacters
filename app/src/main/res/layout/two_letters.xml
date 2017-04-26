@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        style="@style/background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/twoTitle"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="bottom"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_margin="24dp"
+            android:text="@string/twoDesc"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/typeTwo1"
+                android:text="@string/twoType1"
+                android:layout_margin="10dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTwo1"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:layout_below="@id/typeTwo1"
+                android:background="@color/white"
+                android:inputType="textNoSuggestions"
+                android:maxLength="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editTwo1"
+                android:id="@+id/typeTwo2"
+                android:text="@string/twoType2"
+                android:layout_margin="10dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTwo2"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                android:layout_below="@id/typeTwo2"
+                android:background="@color/white"
+                android:inputType="textNoSuggestions"
+                android:maxLength="1"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/go2"
+                android:layout_centerHorizontal="true"
+                android:text="@string/go"
+                android:layout_alignParentBottom="true"
+                android:onClick="onClickTwo" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

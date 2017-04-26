@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CatamountCharacters</string>
+    <string name="title">Catamount Characters</string>
+    <string name="mainMenu">Main Menu</string>
+    <string name="one">1 Letter</string>
+    <string name="two">2 Letters</string>
+    <string name="image">Image</string>
+    <string name="oneTitle">Choose One Character</string>
+    <string name="twoTitle">Choose Two Characters</string>
+    <string name="oneDesc">Enter one alpha numeric characters</string>
+    <string name="twoDesc">Enter two alpha numeric characters</string>
+    <string name="twoType1">Type Character 1</string>
+    <string name="twoType2">Type Character 2</string>
+    <string name="oneType">Type Character</string>
+    <string name="go">Go ></string>
+    <string name="imageTitle">Choose Image</string>
+    <string name="cat">Catamount</string>
+    <string name="tower">Tower</string>
+    <string name="computer">Computer</string>
+    <string name="science">Science</string>
+    <string name="year">Year</string>
+    <string name="info">i</string>
+    <string name="about">About</string>
+    <string name="dev">Developer</string>
+    <string name="austin">Austin Richburg</string>
+    <string name="moreAbout">Austin is a student at Western Carolina University
+                and is in the CS467 class developing awesome apps</string>
+    <string name="email">Email: atrichburg1@catamount.wcu.edu</string>
+</resources>
